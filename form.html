@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Form </title>
+        <link rel="stylesheet" href="form.css"> 
+    </head>
+    <body>
+        
+    <div class="container">
+        <div class="title">ORDERING FORM</div>
+     <form action="#">
+        <div class="user-details">
+            <div class="input-box">
+
+        <span class="details">FIRST NAME</span>    
+      <input type="text" name="firstname" placeholder="Enter your firstname" class="name" required> &ensp;
+
+         <span class="details">LAST NAME</span>  
+      <input type="text" name="lastname" placeholder="Enter your lastname" class="name" required>
+    </div>
+
+    <div class="input-box">
+        <span class="details">PASSWORD</span>    
+             <input type="password" name="password"  placeholder="Enter your password"  required class="text-name"> 
+            </div>
+    
+
+    <div class="input-box">
+    <span class="details">PHONE NUMBER</span>    
+         <input type="text" name="phonenumber"  placeholder="Enter your number" maxlength="10" required class="text-name"> 
+        </div>
+
+        <div class="input-box"> 
+            <span class="details">EMAIL</span>  
+       <input type="email" name="emailaddress" placeholder="Enter your Email id" required class="text-name"> 
+   </div>
+    
+        
+    <div class="input-box">
+    <span class="details">CITY</span>   
+        <select name="city" placeholder="select your city" required class="text-name">
+              <option value="Agra"> Agra </option>>
+              <option value="Ahmedabad"> Ahmedabad </option>
+              <option value="Mumbai"> Mumbai </option> 
+              <option value="Delhi"> Delhi </option>
+              <option value="Kolkata"> Kolkata </option>
+              </select> 
+            </div>
+
+            <div class="input-box">
+                <span class="details">STATE</span>  
+                 <select name="state" placeholder="select your state" required class="text-name">
+                       <option value="Assam"> Assam </option>
+                       <option value="Bihar"> Bihar </option>
+                       <option value="Gujarat"> Gujarat </option>
+                       <option value="Haryana"> Haryana </option>
+                       <option value="Rajasthan"> Rajasthan</option>
+                    </select>
+                </div>
+              
+    <div class="input-box">
+        <span class="details">ADDRESS</span>  
+         <input type="text" name="address" placeholder="Enter your Address" style="height:50px" required class="text-name">
+     </div>
+
+     <div class="input-box">
+        <span class="details">PINCODE</span>    
+       <input type="number" name="pincode" placeholder="Enter pincode" required class="text-name">
+   </div>
+        
+         
+         <div class="input-box">
+         <span class="details">COUNTRY</span>     
+         <select name="country" placeholder="select your country" required class="text-name" >
+                <option value="Aruba"> Aruba </option>
+                <option value="Bangladesh"> Bangladesh</option> 
+                <option value="Canada"> Canada </option>
+                <option value="Hong Kong"> Hong Kong </option> 
+                <option value="India"> India </option>
+                <option value="North Korea"> North Korea </option>
+                <option value="Libya"> Libya </option>
+            </select>
+        </div>
+
+       
+            
+             <div class="input-box">
+             <span class="details">PAYMENT METHOD</span>   
+        <select name="payment method" placeholder="select method" required>
+            <option value="Credits And Debit Cards"> Credits And Debit Cards </option>
+            <option value="Netbanking"> Netbanking </option>
+            <option value="Cash On Delivery"> Cash On Delivery </option>
+        </select>
+    </div>
+    
+          
+        <input type="submit" value="SEND" class="btn1">
+        
+        <input type="reset" value="RESET" class="btn2">
+        
+        </div>
+        
+
+        </form>
+
+    </body>
+</html>
